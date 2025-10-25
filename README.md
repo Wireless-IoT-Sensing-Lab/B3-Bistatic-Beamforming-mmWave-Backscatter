@@ -1,16 +1,16 @@
-# B3: Bistatic Beamforming for mmWave Backscatter
+#  B3: Bistatic Beamforming for mmWave Backscatter
 
-This repository contains the implementation, experimental data, and hardware design files for our **Bistatic Beamforming Backscatter (B³)** system — a high-frequency mmWave tag that enables efficient beam-steered links between transmitters, receivers, and passive backscatter tags.
+This repository provides the **implementation**, **hardware design**, and **experimental data** for the **Bistatic Beamforming Backscatter (B3)** system — a high-frequency mmWave backscatter tag that enables efficient **beam-steered communication** between transmitters, receivers, and passive backscatter devices.
 
 ---
 
-## Overview
+##  Overview
 
-**B3** explores bistatic beamforming techniques to enhance link robustness and energy efficiency in mmWave backscatter systems.
+**B3** demonstrates bistatic beamforming techniques that significantly improve **link robustness**, **signal strength**, and **energy efficiency** in mmWave backscatter systems.
 
-The repository includes:
-- Hardware design files for the custom backscatter tag and RF front-end to help any researcher to reproduce this tag for their future projects
-- Antenna design description for tag TX beamforming
+This repository includes:
+- **Hardware design files** for the custom bistatic backscatter tag and RF front-end — allowing researchers to **reproduce or extend** the hardware design for their own projects.  
+- **Antenna design documentation** detailing the tag’s **transmit beamforming** and test configurations.
 
 ---
 
@@ -18,17 +18,23 @@ The repository includes:
 
 | Folder | Description |
 |:--|:--|
-| **/Hardware Description/Antennamd/** | Antenna design document and beamfomring test. |
-| **/Hardware Description/Antennamd/** |PCB design files, RF schematics, and hardware block diagrams for the bistatic backscatter tag. |
-| **/beamforming/** | MATLAB or Python scripts implementing bistatic beamforming algorithms and simulation models. |
-| **/experiments/** | Raw and processed experimental data, including test configurations and simulation results. |
-| **/docs/** | Documentation, design notes, and related publications. |
+| **/Hardware Description/Antennas.md/** | Antenna design documentation, radiation pattern plots, and beamforming test results. |
+| **/PCBO/Readme-PCBO.md/** | Step-by-step instructions for reproducing the PCB design and submitting fabrication orders. |
+| **/PCBO/B³_FINAL_OUTPUT.7z/** | Compressed archive containing PCB layout files, Gerber and DXF files, documentation, and the full Bill of Materials (BOM). |
 
 ---
 
-## Key Features
+## ⚙️ Key Features
 
-- **Tag Beamforming** – Coordinated TX/RX beam control for efficient tag reflection  
-- **High-speed beam switching** – Up to 40 MHz hardware-supported beam switching rate  
-- **Modular architecture** – Separate paths for control logic, RF front-end, and baseband processing  
-- **Open research dataset** – Enables reproducibility and further development
+- **Tag Beamforming** – Coordinated transmit/receive beam control for optimized reflection and link quality.  
+- **High-Speed Beam Switching** – Hardware supports up to **40 MHz** beam-switching rate.  
+- **Modular Architecture** – Clean separation of control logic, RF front-end, and baseband processing.  
+- **Open and Reproducible** – Provides all design files and documents to facilitate reproducibility and future research extensions.
+
+---
+
+
+
+**Wireless IoT Sensing Lab**  
+[George Mason University]  
+[http://www.phpathak.com/]

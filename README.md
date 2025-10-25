@@ -18,7 +18,8 @@ The repository includes:
 
 | Folder | Description |
 |:--|:--|
-| **/hardware/** | PCB design files, RF schematics, and hardware block diagrams for the bistatic backscatter tag. |
+| **/Hardware Description/Antennamd/** | Antenna design document and beamfomring test. |
+| **/Hardware Description/Antennamd/** |PCB design files, RF schematics, and hardware block diagrams for the bistatic backscatter tag. |
 | **/beamforming/** | MATLAB or Python scripts implementing bistatic beamforming algorithms and simulation models. |
 | **/experiments/** | Raw and processed experimental data, including test configurations and simulation results. |
 | **/docs/** | Documentation, design notes, and related publications. |

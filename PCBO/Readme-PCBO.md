@@ -1,4 +1,4 @@
-B^3 - PCB Order Package
+$B^3$ - PCB Order Package
 
 This folder contains the required files for a PCB order. The package includes
 1. Documentation: layer views for each design layers, stack-up descriptions

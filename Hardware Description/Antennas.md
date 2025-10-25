@@ -71,7 +71,7 @@ $$
 
 ## Why a single patch is a good pseudo-omni **receiver**
 
-Mounted with its broadside facing the coverage region, a rectangular patch has wide half-power beamwidths in both principal planes (commonly on the order of $60^\circ$–$90^\circ$ depending on $W/L$ and substrate). The integral ground plane suppresses the back lobe and shields cables and electronics, so most sensitivity is directed into the *forward* hemisphere. In dense or indoor environments, multipath and angular spread further “fill in” nulls, making the azimuth response functionally omni-like for receiving while retaining the patch’s compact, low-profile form.
+Mounted with its broadside facing the coverage region, a rectangular patch has wide half-power beamwidths in both principal planes (commonly on the order of $60^\circ$ – $90^\circ$ depending on $W/L$ and substrate). The integral ground plane suppresses the back lobe and shields cables and electronics, so most sensitivity is directed into the *forward* hemisphere. In dense or indoor environments, multipath and angular spread further “fill in” nulls, making the azimuth response functionally omni-like for receiving while retaining the patch’s compact, low-profile form.
 
 A small footprint does not imply a small receive aperture. Using
 
@@ -85,18 +85,18 @@ a typical broadside gain of $G\approx 6\text{–}8$ dBi yields ample effective a
 
 ## a 100 Ω inset feed impedance matching
 
-We purposely set the feed point along the patch’s symmetry line where the input resistance is **about $100~\Omega$**. This choice keeps the notch relatively **shallow**, so the $TM_{10}$ current sheet is disturbed less, the landing area remains mechanically sound, and the narrower microstrip at the radiating edge adds **less capacitive loading**. In short: it’s easier to hit accurately, and it preserves the clean broad beam we want for pseudo-omni Rx.
+We purposely set the feed point along the patch’s symmetry line where the input resistance is **about $100~\Omega$**. This choice keeps the notch relatively **shallow**, so the $TM_{10}$ current sheet is disturbed less, and the narrower microstrip at the radiating edge adds **less capacitive loading**. Therefore, it preserves the clean broad beam we want for pseudo-omni Rx.
 
 Along the symmetry line, the input resistance varies with inset depth $y$ (measured from the radiating edge) as
 
 $$
-R_{\mathrm{in}}(y)=R_{\mathrm{edge}}\cos^{2}\!\left(\frac{\pi y}{L}\right).
+R_{\mathrm{in}}(y)=R_{\mathrm{edge}}\cos^{2}\\left(\frac{\pi y}{L}\right).
 $$
 
 Solving for a $100~\Omega$ target gives a first-cut inset:
 
 $$
-y=\frac{L}{\pi}\cos^{-1}\!\sqrt{\frac{100}{R_{\mathrm{edge}}}}.
+y=\frac{L}{\pi}\cos^{-1}\\sqrt{\frac{100}{R_{\mathrm{edge}}}}.
 $$
 
 Here $R_{\mathrm{edge}}$ is the resistance right at the edge ($y=0$); a quick EM model or a prior build provides a good estimate. Because the inset is shallow at $100~\Omega$, small tweaks (on the order of a millimeter for typical boards) smoothly bring $R_{\mathrm{in}}$ to target with minimal impact on resonance or pattern.
@@ -109,14 +109,45 @@ $$
 +\frac{\varepsilon_r-1}{2}\left(1+12\frac{h}{W_f}\right)^{-1/2}.
 $$
 
-Then select $W_f$ that realizes $Z_0\approx100~\Omega$ (invert the standard $Z_0$ formulas numerically or with a calculator), verify it clears fabrication rules, and keep the notch comparable to $W_f$ for a smooth transition into the patch.
-
-Downstream, any external interface (e.g., a $50~\Omega$ receiver front end) can be matched with a compact printed network—quarter-wave, L-section, or broadband as bandwidth dictates—without changing the inset philosophy on the patch.
+We chose the inset with the same as 100-ohm trace width ($W_{100Ω}$) and fine-tuned the inset length so that we have impedance matching at 100Ω. Then, using a quarter-wave transformer, 50Ω impedance matching was implemented.
 
 ---
 
-## Integration notes
+## The fine-tuned Rx antenna design
 
-Keep metalwork or housings at least $0.05$–$0.1\,\lambda_0$ away from the patch edges, extend the ground per the guideline above, and, after the first cut, trim $L$ slightly to recenter $f_r$. Lower $\varepsilon_r$ and moderate $h$ generally widen bandwidth and beamwidths, which helps the pseudo-omni goal; at mmWave, pay close attention to conductor roughness and dimensional tolerances, as they shift $f_r$ perceptibly.
+| <a href="https://github.com/user-attachments/assets/20760015-aa49-41a0-b14a-b6fbbe27c5c2"><img src="https://github.com/user-attachments/assets/20760015-aa49-41a0-b14a-b6fbbe27c5c2" alt="Rx Antenna" height="400"></a> | <a href="https://github.com/user-attachments/assets/3bfa50a5-b682-4d31-af23-55340dbb59ba"><img src="https://github.com/user-attachments/assets/3bfa50a5-b682-4d31-af23-55340dbb59ba" alt="Rx Antenna S11" height="400"></a> |
+|:--:|:--:|
+| *Figure 1. Rx antenna (rectangular microstrip patch).* | *Figure 2. Return loss (S11) of the Rx patch).* |
 
----
+Fig. 1 shows the finalized Rx microstrip patch antenna with 100Ω-line inset match and it shows a impedance bandwidth of approximately 2GHz (59.2-61.2GHz) which corresponds to a 3.33% fractional bandwidth.
+
+### Design summary and parameters
+The fine-tuned design parameters are itemmized and listed below.
+
+**Substrate:** Taconic TLX-8, 5 mil (0.127 mm) core.
+
+**Patch geometry:**  
+- Patch width $W_{\text{patch}} = 1.87$ mm  
+- Patch length (height) $H_{\text{patch}} = 1.45$ mm  
+
+**Inset feed (100 Ω target at the feed point):**  
+- Inset width $W_{\text{inset}} = W_{100\Omega} = 0.0762$ mm  
+- Inset depth $H_{\text{inset}} = 0.4$ mm  
+rent sheet, and reduces capacitive loading at the radiating edge—helpful for preserving a broad, smooth receive pattern (pseudo-omni) while maintaining a robust landing area.
+
+**Microstrip lines on TLX-8 (same stackup)**  
+Each listed length is a 90° electrical length (i.e., $\lambda_g/4$) at the design frequency for that line width.
+
+| Line Impedance | Width (mm) | Length for 90° (mm) |
+|:--:|:--:|:--:|
+| $100~\Omega$ | **0.0762** | **0.895** |
+| $70.7~\Omega$ | **0.1745** | **0.8725** |
+| $50~\Omega$ | **0.33** | **0.8517** |
+
+### Far-field performance
+
+| <a href="https://github.com/user-attachments/assets/149b7673-c69e-4aa8-9812-db17473b345e"><img height="400" alt="Rx antenna far-field radiation pattern at 60GHz" src="https://github.com/user-attachments/assets/149b7673-c69e-4aa8-9812-db17473b345e" /></a> | <a href="https://github.com/user-attachments/assets/3228c77c-a41b-43cc-a67c-5e6e0dabcde0"><img height="400" alt="Rx antenna peak realized gain over frequency" src="https://github.com/user-attachments/assets/3228c77c-a41b-43cc-a67c-5e6e0dabcde0" /></a> |
+|:--:|:--:|
+| *Figure 3. Rx antenna far-field radiation pattern at 60 GHz.* | *Figure 4. Rx antenna peak realized gain versus frequency.* |
+
+The fine-tuned Rx antenna shows the peak realized gain of 7.83dBi at 60GHz and the Realize gain is above 6.5dBi within the impedance bandwidth.

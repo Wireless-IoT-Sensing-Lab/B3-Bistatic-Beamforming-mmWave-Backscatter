@@ -1,4 +1,4 @@
-#  B3: Bistatic Beamforming for mmWave Backscatter
+#  $B^3$: Bistatic Beamforming for mmWave Backscatter
 
 This repository provides the **implementation**, **hardware design**, and **experimental data** for the **Bistatic Beamforming Backscatter (B3)** system — a high-frequency mmWave backscatter tag that enables efficient **beam-steered communication** between transmitters, receivers, and passive backscatter devices.
 
@@ -6,7 +6,7 @@ This repository provides the **implementation**, **hardware design**, and **expe
 
 ##  Overview
 
-**B3** demonstrates bistatic beamforming techniques that significantly improve **link robustness**, **signal strength**, and **energy efficiency** in mmWave backscatter systems.
+**$B^3$** demonstrates bistatic beamforming techniques that significantly improve **link robustness**, **signal strength**, and **energy efficiency** in mmWave backscatter systems.
 
 This repository includes:
 - **Hardware design files** for the custom bistatic backscatter tag and RF front-end — allowing researchers to **reproduce or extend** the hardware design for their own projects.  

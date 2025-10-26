@@ -20,7 +20,8 @@ This repository includes:
 |:--|:--|
 | **/Hardware Description/Antennas.md/** | Antenna design documentation, radiation pattern plots, and beamforming test results. |
 | **/PCBO/Readme-PCBO.md/** | This document offers a brief description about the PCBO package. |
-| **/PCBO/B³_FINAL_OUTPUT.7z/** | Compressed archive containing PCB layout files, Gerber and DXF files, documentation, and the full Bill of Materials (BOM). |
+| **/PCBO/DOCUMENTATION/** | This directory contains the manufacturing document |
+| **/PCBO/BILL OF MATERIALS/** | This directory contains the BOM document for those who want to order their own $B^3$ hardware |
 
 ---
 

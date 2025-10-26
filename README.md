@@ -10,7 +10,7 @@ This repository provides the **implementation**, **hardware design**, and **expe
 
 This repository includes:
 - **Hardware design files** for the custom bistatic backscatter tag and RF front-end — allowing researchers to **reproduce or extend** the hardware design for their own projects.  
-- **Hardware Description** detailing each hardware component of $B^3%. Currently detailed descriptions and simulation results of $B^3$ Tx and Rx antennas are available.
+- **Hardware Description** detailing each hardware component of $B^3$. Currently detailed descriptions and simulation results of $B^3$ Tx and Rx antennas are available.
 
 ---
 

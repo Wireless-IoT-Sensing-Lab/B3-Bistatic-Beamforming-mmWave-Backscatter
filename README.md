@@ -10,7 +10,7 @@ This repository provides the **implementation**, **hardware design**, and **expe
 
 This repository includes:
 - **Hardware design files** for the custom bistatic backscatter tag and RF front-end — allowing researchers to **reproduce or extend** the hardware design for their own projects.  
-- **Antenna design documentation** detailing the tag’s **transmit beamforming** and test configurations.
+- **Hardware Description** detailing each hardware component of $B^3%. Currently detailed descriptions and simulation results of $B^3$ Tx and Rx antennas are available.
 
 ---
 
@@ -19,7 +19,7 @@ This repository includes:
 | Folder | Description |
 |:--|:--|
 | **/Hardware Description/Antennas.md/** | Antenna design documentation, radiation pattern plots, and beamforming test results. |
-| **/PCBO/Readme-PCBO.md/** | Step-by-step instructions for reproducing the PCB design and submitting fabrication orders. |
+| **/PCBO/Readme-PCBO.md/** | This document offers a brief description about the PCBO package. |
 | **/PCBO/B³_FINAL_OUTPUT.7z/** | Compressed archive containing PCB layout files, Gerber and DXF files, documentation, and the full Bill of Materials (BOM). |
 
 ---

@@ -18,8 +18,8 @@ This repository includes:
 
 | Folder | Description |
 |:--|:--|
-| **/Hardware Description/Antennas.md/** | Antenna design documentation, radiation pattern plots, and beamforming test results. |
-| **/PCBO/Readme-PCBO.md/** | This document offers a brief description about the PCBO package. |
+| **/Hardware Description/Antennas.md** | Antenna design documentation, radiation pattern plots, and beamforming test results. |
+| **/PCBO/Readme-PCBO.md** | This document offers a brief description about the PCBO package. |
 | **/PCBO/DOCUMENTATION/** | This directory contains the manufacturing document |
 | **/PCBO/BILL OF MATERIALS/** | This directory contains the BOM document for those who want to order their own $B^3$ hardware |
 

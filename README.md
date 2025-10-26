@@ -25,7 +25,7 @@ This repository includes:
 
 ---
 
-## ⚙️ Key Features
+## Key Features
 
 - **Tag Beamforming** – Coordinated transmit/receive beam control for optimized reflection and link quality.  
 - **High-Speed Beam Switching** – Hardware supports up to **40 MHz** beam-switching rate.  

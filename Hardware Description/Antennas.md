@@ -176,7 +176,7 @@ The fine-tuned antenna subarray is designed with a 100Ω feed line with 0.9mm fe
 
 | <a href="https://github.com/user-attachments/assets/af10bab1-baf5-4497-9209-0f0cea8df004"><img width="557" height="450" alt="$B^3$ Tx switched array final design" src="https://github.com/user-attachments/assets/af10bab1-baf5-4497-9209-0f0cea8df004" /></a> | <a href="https://github.com/user-attachments/assets/3243bb02-bac7-429b-8c7f-00495b132f20"><img width="1208" height="450" alt="Reflection coefficient of the Tx antenna" src="https://github.com/user-attachments/assets/3243bb02-bac7-429b-8c7f-00495b132f20" /></a> |
 |:--:|:--:|
-| *Figure 8. $B^3$ Tx switched-array final design.* | *Figure 9. Reflection coefficient (S11) of the Tx antenna.* |
+| *Figure 8. B^3 Tx switched-array final design.* | *Figure 9. Reflection coefficient (S11) of the Tx antenna.* |
 
 We integrated the designed microstrip 4X4 Hadamard matrix passive beamforming matrix and the 4X4 linear patch array antenna so that we can switch beams electrically for the demonstration of $B^3$. The impedance bandwidth of the final araay is similar to that of the linear array element but slightly wider. Now, depending on which input port we excite the RF signal, Hadamard beamformer generates four different beam shapes as below.
 

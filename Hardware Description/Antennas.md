@@ -109,7 +109,7 @@ $$
 +\frac{\varepsilon_r-1}{2}\left(1+12\frac{h}{W_f}\right)^{-1/2}.
 $$
 
-We chose the inset with the same as 100-ohm trace width ($W_{100Ω}$) and fine-tuned the inset length so that we have impedance matching at 100Ω. Then, using a quarter-wave transformer, 50Ω impedance matching was implemented.
+We chose the inset with the same as 100-ohm trace width ($W_{100Ω}$) and fine-tuned the inset length so that we have impedance matching at 100Ω. Then, using a quarter-wave transformer (using a 84Ω quarter-wave line), 70.7Ω impedance matching was implemented.
 
 ---
 

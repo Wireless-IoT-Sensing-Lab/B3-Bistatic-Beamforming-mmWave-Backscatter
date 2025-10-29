@@ -83,9 +83,9 @@ a typical broadside gain of $G\approx 6\text{–}8$ dBi yields ample effective a
 
 ---
 
-## a 100 Ω inset feed impedance matching
+## a 70.7 Ω inset feed impedance matching
 
-We purposely set the feed point along the patch’s symmetry line where the input resistance is **about $100~\Omega$**. This choice keeps the notch relatively **shallow**, so the $TM_{10}$ current sheet is disturbed less, and the narrower microstrip at the radiating edge adds **less capacitive loading**. Therefore, it preserves the clean broad beam we want for pseudo-omni Rx.
+We purposely set the feed point along the patch’s symmetry line where the input resistance is **about $70.7~\Omega$**. This choice keeps the notch relatively **shallow**, so the $TM_{10}$ current sheet is disturbed less, and the narrower microstrip at the radiating edge adds **less capacitive loading**. Therefore, it preserves the clean broad beam we want for pseudo-omni Rx.
 
 Along the symmetry line, the input resistance varies with inset depth $y$ (measured from the radiating edge) as
 
@@ -93,15 +93,15 @@ $$
 R_{\mathrm{in}}(y)=R_{\mathrm{edge}}\cos^{2}\\left(\frac{\pi y}{L}\right).
 $$
 
-Solving for a $100~\Omega$ target gives a first-cut inset:
+Solving for a $70.7~\Omega$ target gives a first-cut inset:
 
 $$
-y=\frac{L}{\pi}\cos^{-1}\\sqrt{\frac{100}{R_{\mathrm{edge}}}}.
+y=\frac{L}{\pi}\cos^{-1}\\sqrt{\frac{70.7}{R_{\mathrm{edge}}}}.
 $$
 
-Here $R_{\mathrm{edge}}$ is the resistance right at the edge ($y=0$); a quick EM model or a prior build provides a good estimate. Because the inset is shallow at $100~\Omega$, small tweaks (on the order of a millimeter for typical boards) smoothly bring $R_{\mathrm{in}}$ to target with minimal impact on resonance or pattern.
+Here $R_{\mathrm{edge}}$ is the resistance right at the edge ($y=0$); a quick EM model or a prior build provides a good estimate. Because the inset is shallow at $70.7~\Omega$, small tweaks (on the order of a millimeter for typical boards) smoothly bring $R_{\mathrm{in}}$ to target with minimal impact on resonance or pattern.
 
-To choose the **feed and notch widths**, size the microstrip line on the same substrate for approximately $100~\Omega$ and make the slot just wide enough to admit that line without excessive fringing. For the line, use the usual microstrip relations (Hammerstad–Jensen) to relate width $W_f$ over height $h$ to $Z_0$; the effective permittivity of the line is
+To choose the **feed and notch widths**, size the microstrip line on the same substrate for approximately $70.7~\Omega$ and make the slot just wide enough to admit that line without excessive fringing. For the line, use the usual microstrip relations (Hammerstad–Jensen) to relate width $W_f$ over height $h$ to $Z_0$; the effective permittivity of the line is
 
 $$
 \varepsilon_{\mathrm{eff,line}}
@@ -109,7 +109,7 @@ $$
 +\frac{\varepsilon_r-1}{2}\left(1+12\frac{h}{W_f}\right)^{-1/2}.
 $$
 
-We chose the inset with the same as 100-ohm trace width ($W_{100Ω}$) and fine-tuned the inset length so that we have impedance matching at 100Ω. Then, using a quarter-wave transformer, 50Ω impedance matching was implemented.
+We chose the inset with the same as 70.7-ohm trace width ($W_{70.7Ω}$) and fine-tuned the inset length so that we have impedance matching at 70.7Ω. Then, using a quarter-wave transformer, 50Ω impedance matching was implemented.
 
 ---
 
@@ -119,7 +119,7 @@ We chose the inset with the same as 100-ohm trace width ($W_{100Ω}$) and fine-t
 |:--:|:--:|
 | *Figure 1. Rx antenna (rectangular microstrip patch).* | *Figure 2. Return loss (S11) of the Rx patch).* |
 
-Fig. 1 shows the finalized Rx microstrip patch antenna with 100Ω-line inset match and it shows a impedance bandwidth of approximately 2GHz (59.2-61.2GHz) which corresponds to a 3.33% fractional bandwidth.
+Fig. 1 shows the finalized Rx microstrip patch antenna with 70.7Ω-line inset match and it shows a impedance bandwidth of approximately 2GHz (59.2-61.2GHz) which corresponds to a 3.33% fractional bandwidth.
 
 ### Design summary and parameters
 The fine-tuned design parameters are itemmized and listed below.
@@ -130,8 +130,8 @@ The fine-tuned design parameters are itemmized and listed below.
 - Patch width $W_{\text{patch}} = 1.87$ mm  
 - Patch length (height) $H_{\text{patch}} = 1.45$ mm  
 
-**Inset feed (100 Ω target at the feed point):**  
-- Inset width $W_{\text{inset}} = W_{100\Omega} = 0.0762$ mm  
+**Inset feed (70.7 Ω target at the feed point):**  
+- Inset width $W_{\text{inset}} = W_{70.7\Omega} = 0.0762$ mm  
 - Inset depth $H_{\text{inset}} = 0.4$ mm  
 rent sheet, and reduces capacitive loading at the radiating edge—helpful for preserving a broad, smooth receive pattern (pseudo-omni) while maintaining a robust landing area.
 
@@ -170,7 +170,7 @@ While Rx antenna requires pseudo-omni-directional operation, a $B^3$ Tx antenna 
   <em>Figure 7. Reflection coefficient of a 4×1 patch array element.</em>
 </p>
 
-The fine-tuned antenna subarray is designed with a 100Ω feed line with 0.9mm feed line length which points beam towards the lower elevation angle for a good impedance matching within the operating frequency. The nominal patch antenna size is decided $(W_{patch_{norm}}, H_{patch_{norm}})$ = (1.87, 1.45) [mm]. And the width ratio for the each element within the subarray is tuned to be (0.8, 1, 1, 0.8) while 1 corresponds to $W_{patch_{norm}}$. As a result, the sub-array has almost 10% fractional bandwidth (6GHz impedance bandwidth from 57.15GHz to 63.24GHz). The subarray peak realized gain is approximately 10.8dBi.
+The fine-tuned antenna subarray is designed with a 70.7Ω feed line with 0.9mm feed line length which points beam towards the lower elevation angle for a good impedance matching within the operating frequency. The nominal patch antenna size is decided $(W_{patch_{norm}}, H_{patch_{norm}})$ = (1.87, 1.45) [mm]. And the width ratio for the each element within the subarray is tuned to be (0.8, 1, 1, 0.8) while 1 corresponds to $W_{patch_{norm}}$. As a result, the sub-array has almost 10% fractional bandwidth (6GHz impedance bandwidth from 57.15GHz to 63.24GHz). The subarray peak realized gain is approximately 10.8dBi.
 
 ## 4X4 Tx Linear Array Simulation Result
 

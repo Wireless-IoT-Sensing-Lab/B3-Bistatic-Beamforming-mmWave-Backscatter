@@ -37,7 +37,7 @@ This repository includes:
 
 ---
 
-Note: Please make sure to cite our paper if you use our hardware design, data, or implementation in your work. Your citation supports our research and helps us continue improving open-source mmWave backscatter systems.
+**Note: Please make sure to cite our paper if you use our hardware design, data, or implementation in your work. Your citation supports our research and helps us continue improving open-source mmWave backscatter systems.
 Paper Title: $B^3$: Bistatic Backscatter Beamforming for mmWave IoTs
 
 **Wireless IoT Sensing Lab**  

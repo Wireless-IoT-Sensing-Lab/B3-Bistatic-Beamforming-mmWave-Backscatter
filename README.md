@@ -14,7 +14,7 @@ This repository includes:
 - **Hardware Description** detailing each hardware component of $B^3$. Currently detailed descriptions and simulation results of $B^3$ Tx and Rx antennas are available.
 
 Note: Please make sure to cite our paper if you use our hardware design, data, or implementation in your work. Your citation supports our research and helps us continue improving open-source mmWave backscatter systems.
-Paper Title: $B^3$: Bistatic Backscatter Beamforming for mmWave IoTs**
+Paper Title: $B^3$: Bistatic Backscatter Beamforming for mmWave IoTs
 ---
 
 ## 📁 Repository Structure

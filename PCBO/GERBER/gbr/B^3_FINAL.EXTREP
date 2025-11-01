@@ -1,0 +1,42 @@
+------------------------------------------------------------------------------------------
+Gerber File Extension Report For: B^3_FINAL.GBR   9/29/2025  9:02:57 PM
+------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------
+Layer Extension     Layer Description                      
+------------------------------------------------------------------------------------------
+.GTO                Top Overlay                             
+.GTP                Top Paste                               
+.GTS                Top Solder                              
+.GTL                Top Layer                               
+.G1                 Layer 1                                 
+.G2                 Layer 2                                 
+.G3                 Layer 3                                 
+.G4                 Layer 4                                 
+.GBL                Bottom Layer                            
+.GBS                Bottom Solder                           
+.GBP                Bottom Paste                            
+.GBO                Bottom Overlay                          
+.GM1                Mechanical 1                            
+.GM2                Mechanical 2                            
+.GM5                Top Assembly                            
+.GM13               Top 3D Body                             
+.GM15               Top Courtyard                           
+.GM16               Top Component Center                    
+.GM19               Top Designator                          
+.GM20               Bottom Assembly                         
+.GM21               Bottom Courtyard                        
+.GM23               Bottom 3D Body                          
+.GM24               Bottom Component Center                 
+.GKO                Keep-Out Layer                          
+.GPT                Top Pad Master                          
+.GPB                Bottom Pad Master                       
+.GML                Multi-Layer                             
+.5                  Dielectric 5                            
+.2                  Dielectric 1                            
+.1                  Dielectric 3                            
+.4                  Dielectric 4                            
+.3                  Dielectric 2                            
+.GM                 Profile                                 
+------------------------------------------------------------------------------------------

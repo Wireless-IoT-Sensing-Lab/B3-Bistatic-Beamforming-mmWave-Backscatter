@@ -1,0 +1,537 @@
+*************************************************************
+FileName = B^3_FINAL.GBR
+AutoAperture = True
+*************************************************************
+Generating : Dielectric 5
+      File : B^3_FINAL.5
+
+    Adding Layer      : Dielectric 5
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Dielectric 4
+      File : B^3_FINAL.4
+
+    Adding Layer      : Dielectric 4
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Dielectric 2
+      File : B^3_FINAL.3
+
+    Adding Layer      : Dielectric 2
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Dielectric 1
+      File : B^3_FINAL.2
+
+    Adding Layer      : Dielectric 1
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Dielectric 3
+      File : B^3_FINAL.1
+
+    Adding Layer      : Dielectric 3
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Multi-Layer
+      File : B^3_FINAL.GML
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Bottom 3D Body
+      File : B^3_FINAL.GM23
+
+    Adding Layer      : Bottom 3D Body
+
+
+Used DCodes :
+    D11
+    D13
+    D17
+    D49
+*************************************************************
+
+*************************************************************
+Generating : Bottom Component Center
+      File : B^3_FINAL.GM24
+
+    Adding Layer      : Bottom Component Center
+
+
+Used DCodes :
+    D49
+*************************************************************
+
+*************************************************************
+Generating : Bottom Courtyard
+      File : B^3_FINAL.GM21
+
+    Adding Layer      : Bottom Courtyard
+
+
+Used DCodes :
+    D13
+    D14
+    D49
+    D51
+*************************************************************
+
+*************************************************************
+Generating : Top Designator
+      File : B^3_FINAL.GM19
+
+    Adding Layer      : Top Designator
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Bottom Assembly
+      File : B^3_FINAL.GM20
+
+    Adding Layer      : Bottom Assembly
+
+
+Used DCodes :
+    D13
+    D49
+*************************************************************
+
+*************************************************************
+Generating : Top Component Center
+      File : B^3_FINAL.GM16
+
+    Adding Layer      : Top Component Center
+
+
+Used DCodes :
+    D49
+*************************************************************
+
+*************************************************************
+Generating : Top Courtyard
+      File : B^3_FINAL.GM15
+
+    Adding Layer      : Top Courtyard
+
+
+Used DCodes :
+    D13
+    D14
+*************************************************************
+
+*************************************************************
+Generating : Top 3D Body
+      File : B^3_FINAL.GM13
+
+    Adding Layer      : Top 3D Body
+
+
+Used DCodes :
+    D11
+    D13
+    D17
+*************************************************************
+
+*************************************************************
+Generating : Top Assembly
+      File : B^3_FINAL.GM5
+
+    Adding Layer      : Top Assembly
+
+
+Used DCodes :
+    D13
+    D49
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 2
+      File : B^3_FINAL.GM2
+
+    Adding Layer      : Mechanical 2
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 1
+      File : B^3_FINAL.GM1
+
+    Adding Layer      : Mechanical 1
+
+
+Used DCodes :
+    D16
+*************************************************************
+
+*************************************************************
+Generating : Keep-Out Layer
+      File : B^3_FINAL.GKO
+
+    Adding Layer      : Keep-Out Layer
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Bottom Paste
+      File : B^3_FINAL.GBP
+
+    Adding Layer      : Bottom Paste
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D20
+    D21
+    D22
+    D27
+    D28
+    D29
+    D38
+    D39
+    D40
+    D41
+    D42
+    D43
+    D44
+    D47
+    D48
+*************************************************************
+
+*************************************************************
+Generating : Top Paste
+      File : B^3_FINAL.GTP
+
+    Adding Layer      : Top Paste
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : B^3_FINAL.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D21
+    D22
+    D27
+    D28
+    D29
+    D32
+    D38
+    D40
+    D45
+    D46
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : B^3_FINAL.GTS
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : B^3_FINAL.GBO
+
+    Adding Layer      : Bottom Overlay
+
+
+Used DCodes :
+    D13
+    D14
+    D15
+    D16
+    D17
+    D49
+    D50
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : B^3_FINAL.GTO
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+    D15
+    D16
+    D17
+*************************************************************
+
+*************************************************************
+Generating : Top Pad Master
+      File : B^3_FINAL.GPT
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+*************************************************************
+
+*************************************************************
+Generating : Bottom Pad Master
+      File : B^3_FINAL.GPB
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D20
+    D21
+    D22
+    D27
+    D28
+    D29
+    D38
+    D39
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+*************************************************************
+
+*************************************************************
+Generating : Bottom Layer
+      File : B^3_FINAL.GBL
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D13
+    D20
+    D21
+    D22
+    D27
+    D28
+    D29
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+*************************************************************
+
+*************************************************************
+Generating : Layer 3
+      File : B^3_FINAL.G3
+
+    Adding Layer      : Layer 3
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D32
+    D35
+    D36
+    D37
+*************************************************************
+
+*************************************************************
+Generating : Layer 2
+      File : B^3_FINAL.G2
+
+    Adding Layer      : Layer 2
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D32
+    D35
+    D36
+    D37
+*************************************************************
+
+*************************************************************
+Generating : Layer 4
+      File : B^3_FINAL.G4
+
+    Adding Layer      : Layer 4
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D32
+    D35
+    D36
+*************************************************************
+
+*************************************************************
+Generating : Layer 1
+      File : B^3_FINAL.G1
+
+    Adding Layer      : Layer 1
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D32
+    D35
+    D36
+*************************************************************
+
+*************************************************************
+Generating : Top Layer
+      File : B^3_FINAL.GTL
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D13
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+*************************************************************
+
+*************************************************************
+Generating : Profile
+      File : B^3_FINAL.GM
+
+
+Used DCodes :
+    D52
+*************************************************************
+

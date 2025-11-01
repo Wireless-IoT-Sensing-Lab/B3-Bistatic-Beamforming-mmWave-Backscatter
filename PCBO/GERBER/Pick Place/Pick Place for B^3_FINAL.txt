@@ -1,0 +1,43 @@
+Altium Designer Pick and Place Locations
+C:\Altium\B^3_FINAL\Outputs\GERBER\Pick Place\Pick Place for B^3_FINAL.txt
+
+========================================================================================================================
+File Design Information:
+
+Date:       29/09/25
+Time:       21:03
+Revision:   Not in VersionControl
+Variant:    No variations
+Units used: mil
+
+Designator Comment                         Layer       Footprint                       Center-X(mil) Center-Y(mil) Rotation Description                                                                                                              
+M4         60_Hadamard_Antenna             BottomLayer 60_Hadamard_Antenna-Footprint-1 493.268       416.339       90       "60GHz 4x4 hadamard matrix with series-fed microstrip patch antenna arrays. Board Requirement: 5mil-thick Taconic TLX-8" 
+C8         GRM0335C1H101JA01D              BottomLayer FP-GRM033-0_03-IPC_C            343.110       132.508       90       "Chip Multilayer Ceramic Capacitors for General Purpose, 0201, 100pF, C0G, 30ppm/ C, 5%, 50V"                            
+C4         GRM0335C1H101JA01D              BottomLayer FP-GRM033-0_03-IPC_C            596.351       86.079        180      "Chip Multilayer Ceramic Capacitors for General Purpose, 0201, 100pF, C0G, 30ppm/ C, 5%, 50V"                            
+C6         GRM0335C1H101JA01D              BottomLayer FP-GRM033-0_03-IPC_C            390.185       86.079        0        "Chip Multilayer Ceramic Capacitors for General Purpose, 0201, 100pF, C0G, 30ppm/ C, 5%, 50V"                            
+C2         GRM0335C1H101JA01D              BottomLayer FP-GRM033-0_03-IPC_C            643.425       132.508       270      "Chip Multilayer Ceramic Capacitors for General Purpose, 0201, 100pF, C0G, 30ppm/ C, 5%, 50V"                            
+C7         GRM0335C1H101JA01D              TopLayer    FP-GRM033-0_03-IPC_C            -219.449      132.508       90       "Chip Multilayer Ceramic Capacitors for General Purpose, 0201, 100pF, C0G, 30ppm/ C, 5%, 50V"                            
+C5         GRM0335C1H101JA01D              TopLayer    FP-GRM033-0_03-IPC_C            -266.523      86.079        180      "Chip Multilayer Ceramic Capacitors for General Purpose, 0201, 100pF, C0G, 30ppm/ C, 5%, 50V"                            
+C9         GRM0335C1H101JA01D              TopLayer    FP-GRM033-0_03-IPC_C            56.745        -79.276       0        "Chip Multilayer Ceramic Capacitors for General Purpose, 0201, 100pF, C0G, 30ppm/ C, 5%, 50V"                            
+R1         CH0402-50RJFT                   TopLayer    CH0402-50RJFT-Footprint-1       95.197        126.425       0        "Fixed Resistor, Thin Film, 0.05W, 50ohm, 37V, 5% +/-Tol, 100ppm/Cel, Surface Mount, 0402"                               
+M2         60_ANT_SINGLE                   TopLayer    60_ANT_SINGLE-Footprint-1       96.378        419.740       0        "60GHz 1 by 1 Patch Antenna"                                                                                             
+S1         ADRF5054BCCZN                   TopLayer    ADRF5054BCCZN-Footprint-1       -369.606      216.000       90       "1 GHz to 60 GHz, Reflective, Silicon SP4T Switch"                                                                       
+U2         LTC5597HDC#TRMPBF               TopLayer    FP-DC-8-05-08-1957-MFG          149.528       243.559       270      "RF Detector 100MHz to 70000MHz 4.5dBm 8-Pin DFN EP T/R"                                                                 
+U1         ADRF5032BCCZN                   TopLayer    ADRF5032BCCZN-Footprint-1       0.197         19.779        270      "RF Switch SPDT 1GHz to 60GHz 32dB 12-Pin LGA EP T/R"                                                                    
+S2         ADRF5054BCCZN                   BottomLayer ADRF5054BCCZN-Footprint-1       493.268       216.000       90       "1 GHz to 60 GHz, Reflective, Silicon SP4T Switch"                                                                       
+R4         CRCW0402470RFKED                BottomLayer FP-CRCW0402-e3-MFG              154.000       76.000        0        "RES Thick Film, 470O, 1%, 0.063W, 100ppm/ C, 0402"                                                                      
+R3         NC                              BottomLayer RESC0402(1005)_L                121.969       483.716       180      "Chip Resistor, NC, +/-1 %, 63 mW, -55 to 155 degC, 0402"                                                                
+R2         CRCW04021R00FNED                BottomLayer FP-CRCW0402-e3-IPC_C            216.372       360.685       0        "RES Thick Film, 1O, 1%, 0.063W, 200ppm/ C, 0402"                                                                        
+M1         60_Hadamard_Antenna             TopLayer    60_Hadamard_Antenna-Footprint-1 -369.606      390.225       90       "60GHz 4x4 hadamard matrix with series-fed microstrip patch antenna arrays. Board Requirement: 5mil-thick Taconic TLX-8" 
+M3         60_DCOUP_13dB                   TopLayer    60_DCOUP_13dB-Footprint-1       18.669        148.252       270      "60GHz 13dB Directional Coupler"                                                                                         
+J3         M20-7910542R                    BottomLayer M207910542R                     -378.307      946.252       270      "2.54mm (0.1") Pitch SIL Horizontal SMT Socket Assembly, selective gold + tin (Tape & Reel packing), 5 contacts"         
+J2         M20-7910542R                    BottomLayer M207910542R                     -377.323      344.874       270      "2.54mm (0.1") Pitch SIL Horizontal SMT Socket Assembly, selective gold + tin (Tape & Reel packing), 5 contacts"         
+J1         U.FL-R-SMT-1(10)                BottomLayer FP-U_FL-R-SMT-1_10-MFG          65.374        720.921       90       "RF Connector, 1 Contact(s), Male, Board Mount, Surface Mount Terminal, Receptacle"                                      
+C15        GRM1555C1H100JA01D              BottomLayer CAPC1005X55X25ML05T10           135.157       126.433       0        ""                                                                                                                       
+C14        NC                              BottomLayer CAPC1207X04N                    126.890       446.315       180      "Silicon Capacitor NC 11VDC 0402"                                                                                        
+C13        NC                              BottomLayer CAPC1207X04N                    139.685       360.685       90       "Silicon Capacitor NC 11VDC 0402"                                                                                        
+C12        "935152424610-T3N Murata IPDiA" BottomLayer CAPC1207X04N                    214.488       423.677       0        "Silicon Capacitor 100nF 11VDC 0402"                                                                                     
+C11        GRM0335C1H101JA01D              TopLayer    FP-GRM033-0_03-IPC_C            -56.351       -79.276       180      "Chip Multilayer Ceramic Capacitors for General Purpose, 0201, 100pF, C0G, 30ppm/ C, 5%, 50V"                            
+C10        GRM0335C1H101JA01D              TopLayer    FP-GRM033-0_03-IPC_C            -0.079        -102.898      270      "Chip Multilayer Ceramic Capacitors for General Purpose, 0201, 100pF, C0G, 30ppm/ C, 5%, 50V"                            
+C3         GRM0335C1H101JA01D              TopLayer    FP-GRM033-0_03-IPC_C            -472.689      86.079        0        "Chip Multilayer Ceramic Capacitors for General Purpose, 0201, 100pF, C0G, 30ppm/ C, 5%, 50V"                            
+C1         GRM0335C1H101JA01D              TopLayer    FP-GRM033-0_03-IPC_C            -519.764      132.508       90       "Chip Multilayer Ceramic Capacitors for General Purpose, 0201, 100pF, C0G, 30ppm/ C, 5%, 50V"                            

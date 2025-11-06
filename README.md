@@ -2,6 +2,11 @@
 
 This repository provides the **implementation**, **hardware design**, and **experimental data** for the **Bistatic Beamforming Backscatter ($B^3$)** system — a high-frequency mmWave backscatter tag that enables efficient **beam-steered communication** between transmitters, receivers, and passive backscatter devices.
 
+**📢 Please make sure to cite our paper if you use our hardware design, data, or implementation.**
+
+Paper Title: $B^3$: Bistatic Backscatter Beamforming for mmWave IoTs (SenSys'26)
+
+
 ---
 
 ##  Overview
@@ -37,9 +42,6 @@ This repository includes:
 
 ---
 
-**📢 Please make sure to cite our paper if you use our hardware design, data, or implementation.**
-
-Paper Title: $B^3$: Bistatic Backscatter Beamforming for mmWave IoTs (SenSys'26)
 
 **Wireless IoT Sensing Lab**  
 [George Mason University]  

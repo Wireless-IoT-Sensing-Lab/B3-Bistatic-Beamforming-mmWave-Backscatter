@@ -4,7 +4,7 @@ This repository provides the **implementation**, **hardware design**, and **expe
 
 **📢 Please make sure to cite our paper if you use our hardware design, data, or implementation.**
 
-Zhenzhe Lin, Chae, Yoon, Mingyo Jeong, and Parth Pathak. "$B^3$: Bistatic Backscatter Beamforming for mmWave IoTs" ACM SenSys 2026. 
+Zhenzhe Lin, Chae, Yoon, Mingyo Jeong, and Parth Pathak. "B^3: Bistatic Backscatter Beamforming for mmWave IoTs" ACM SenSys 2026. 
 
 
 ---
